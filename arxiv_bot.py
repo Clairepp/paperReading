@@ -1,6 +1,8 @@
 import requests
 import datetime
 from xml.etree import ElementTree as ET
+import os
+
 
 ARXIV_CATEGORIES = ['cs.IR', 'cs.CL']  # 目标学科分类
 DAYS_BACK = 1  # 获取最近1天的论文
